@@ -42,7 +42,7 @@ inputs:
   no_output_found_message:
     description: Message to post when no output file is found
     required: false
-    default: Não encontrado Logs de Execução: <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|Actions link>
+    default: Não encontrado Logs de Execução - ${{ github.repository }}
 
 runs:
   using: node20
